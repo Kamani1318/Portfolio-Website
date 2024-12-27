@@ -108,6 +108,7 @@ const Research_Work = () => {
         </div>
       </div>
     </section>
+    <div className='bg-black h-48'></div>
     </div>
   );
 };

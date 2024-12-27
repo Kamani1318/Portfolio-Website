@@ -92,6 +92,7 @@ export default function Experience() {
                     </TimelineItem>
                 ))}
             </Timeline>
+            <div className='bg-black h-36'></div>
         </div>
     );
 }

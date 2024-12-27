@@ -1,11 +1,12 @@
 import React from 'react'
 import blackbox_ai from './../assets/BlackBox-AI.png'
+import chatbot from './../assets/Chatbot_img.png'
 const Projects = () => {
   const items = [
     {
       title: 'Interactive Chatbot',
       description: 'An interactive chatbot with a custom UI built using React JS and Langchain JS that trains on pdfs, urls and other documents to give you a response. ',
-      image: 'https://i.pinimg.com/originals/de/d0/bb/ded0bbdd8485e424327257405a86a884.gif',
+      image: chatbot,
       github : 'https://github.com/Kamani1318/Interactive-Chatbot',
     },
     {

@@ -40,7 +40,7 @@ const Home = () => {
     <>
     <div className='bg-black'>
       <div className="flex justify-center items-center pt-16 pb-8 px-10">
-        <div className="flex justify-center items-center box-content h-[400px] w-[1000px] p-4 bg-color_7 border-gray-800 rounded-3xl">
+        <div className="flex justify-center items-center box-content h-[400px] w-[1250px] p-4 bg-color_7 border-gray-800 rounded-3xl">
           <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div className="mr-auto place-self-center lg:col-span-7">
               <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
             <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
               <img
-              className='ml-12 w-64'
+              className='ml-24 w-64'
                 src={avatar}
                 alt="mockup"
               />
