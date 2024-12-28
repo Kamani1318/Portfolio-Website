@@ -59,7 +59,7 @@ export default function Experience() {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent sx={{ py: "12px", px: 2 }}>
-                            <div className="bg-color_4 rounded-3xl w-full max-w-screen-xl p-8">
+                            <div className="bg-color_4 rounded-3xl w-full max-w-screen-xl p-8 px-10">
                                 <div
                                     className={`flex items-center ${
                                         index % 2 === 1 && !isSmallScreen ? "justify-end" : ""
